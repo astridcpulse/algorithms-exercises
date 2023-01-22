@@ -11,11 +11,11 @@
 */
 
 function bubbleSort(nums) {
-  // code goes here
+  
   let flipped = false;
   do {
     flipped = false;
-    for (let i = 0; i < nums.length; i++){
+    for (let i = 0; i < nums.length - 1; i++){
 
       if (nums[i] > nums[i + 1]){
         const temp = nums[i];
